@@ -8,6 +8,7 @@
     padding: 20px 50px;
     margin: 2px auto;
     background-image: url(../images/notice.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 ul li{

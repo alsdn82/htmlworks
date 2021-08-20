@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform 속성</title>
+    <style>
+        div.b{
+            width: 150px;
+            height: 80px;
+            background-color: yellowgreen;
+            /* 회전 - deg(degree:각도)*/
+        }
+        div.b:hover{
+            transform: rotate(20deg);
+        }
+        div.c{
+            width: 150px;
+            height: 80px;
+            background-color: yellowgreen;
+            /* 이동 */
+        }
+        div.c:hover{
+            transform: translateX(50px);
+        }
+        div.d{
+            width: 150px;
+            height: 80px;
+            background-color: yellowgreen;
+            /* 크기 변경 - scale() - XY*/
+        }
+        div.d:hover{
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+<body>
+    <h2>transform: rotate(20deg)</h2>
+    <div class="b">hellow world</div>
+
+    <h2>transform: translateX(50px)</h2>
+    <div class="c">hellow world</div>
+
+    <h2>transform: scaleY(1.5)</h2>
+    <div class="d">hellow world</div>
+</body>
+</html>
