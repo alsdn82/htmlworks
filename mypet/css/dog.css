@@ -17,23 +17,22 @@ nav ul{list-style: none; text-align: right;
 nav ul li{display: inline-block; margin: 30px;}
 nav ul li a{text-decoration: none; color: #fff;}
 nav ul li a:hover{color: yellow;}
-/* section 스타일 */
+/* 본문 스타일 */
 section{width:900px; margin: 0 auto;	}
 h2{font-size:1.5em;}
 h3 {font-size:1.0em; margin-bottom: 10px; font-weight: bold;}
 p {line-height:2em; font-size:14px;}
 article{width: 400px; height: 300px;
     border-radius: 10px; border: 1px solid gray; margin: 10px;
-    padding: 10px;
-    /* float: left; 이렇게써도됨 */}
-article.at1{float: left; background: url('../images/1.png')no-repeat right bottom;}
-article.at1:hover{background-color:rgb(214, 207, 207);}
-article.at2{float: left;}
-article.at2:hover{background-color:rgb(223, 217, 217);}
-article.at3{float: left;}
-article.at3:hover{background-color:rgb(224, 217, 217);}
-article.at4{float: left; background: url('../images/2.png')no-repeat right bottom;}
-article.at4:hover{background-color:rgb(223, 216, 216);}
+    padding: 10px; float: left;}
+article.at1{background: url('../images/1.png')no-repeat right bottom;}
+article.at4{background: url('../images/2.png')no-repeat right bottom;}
+article.at1:hover{background-color:rgb(218, 212, 212); transition: 2s;}
+article.at2:hover{background-color:rgb(201, 212, 189); transition: 2s;}
+article.at3:hover{background-color:rgb(172, 208, 212); transition: 2s;}
+article.at4:hover{background-color:rgb(182, 235, 205); transition: 2s;}
+
+/* 강아지 종류 페이지 */
 article.type{width: 28%; height: 600px; float: left;}
 article.type h3{background: url(../images/bg-note.png) no-repeat;
      padding-left: 30px; margin: 10px 0;}
